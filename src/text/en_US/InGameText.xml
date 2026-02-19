@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <Replace Tag="LOC_OPTIONS_GROUP_DRT_MOD">
+      <Text>Diplomacy Ribbon Toggler</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_OPTION_TOGGLE_NAME">
+      <Text>Toggle Diplomacy Ribbon</Text>
+    </Replace>
+    <Replace Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_OPTION_TOGGLE_DESC">
+      <Text>Toggle the Diplomacy Ribbon visibility on or off.</Text>
+    </Replace>
+  </EnglishText>
+</Database>

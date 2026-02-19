@@ -1,0 +1,33 @@
+.animate-in-right-drt {
+  animation: AnimateInRight 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes AnimateInRight {
+  0% {
+    transform: translateX(125%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-out-right-drt {
+  animation: AnimateOutRight 0.375s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes AnimateOutRight {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.hidden-drt {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

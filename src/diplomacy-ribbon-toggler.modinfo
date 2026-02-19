@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="diplomacy-ribbon-toggler" version="0.0.1" xmlns="ModInfo">
+  <Properties>
+    <Name>LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_NAME</Name>
+    <Description>LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_DESCRIPTION</Description>
+    <Authors>RoLYroLLs</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <!-- properties for TCS Improved Mod Page -->
+    <SpecialThanks></SpecialThanks>
+    <Compatibility>This should be compatible with all other mods.</Compatibility>
+    <URL>https://github.com/RoLYroLLs/Diplomacy-Ribbon-Toggler</URL>
+    <Version>0.0.1</Version>
+  </Properties>
+  <Dependencies>
+    <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="always">
+      <AlwaysMet />
+    </Criteria>
+  </ActionCriteria>
+  <ActionGroups>
+    <ActionGroup id="shell-diplomacy-ribbon-toggler" scope="shell" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>ui/options/editors/drt-editor-keyboard-mapping-decorator.js</Item>
+        </UIScripts>
+        <UpdateDatabase>
+          <Item>config/input.xml</Item>
+        </UpdateDatabase>
+        <UpdateText>
+          <Item>text/en_US/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="game-diplomacy-ribbon-toggler" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <ImportFiles>
+          <Item>ui/diplo-ribbon/drt-panel-diplo-ribbon-toggler.css</Item>
+        </ImportFiles>
+        <UIScripts>
+          <Item>helpers/drt-globals.js</Item>
+          <Item>helpers/drt-utils.js</Item>
+          <Item>ui/options/drt-options.js</Item>
+          <Item>ui/options/mod-options.js</Item>
+          <Item>input/drt-hotkey-manager.js</Item>
+          <Item>ui/diplo-ribbon/drt-panel-diplo-ribbon-toggler.js</Item>
+          <Item>ui/options/editors/drt-editor-keyboard-mapping-decorator.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>text/en_US/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
+  <LocalizedText>
+    <File>text/en_US/ModInfoText.xml</File>
+  </LocalizedText>
+</Mod>

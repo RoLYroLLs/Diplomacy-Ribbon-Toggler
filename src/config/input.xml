@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <InputActions>
+    <Row ActionId="drt-toggle-diplo-ribbon-panel" DeviceType="Keyboard" Name="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_OPTION_TOGGLE_NAME" Description="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_OPTION_TOGGLE_DESC" />
+  </InputActions>
+  <InputContextConstraints>
+    <Row ActionId="drt-toggle-diplo-ribbon-panel" ContextId="World" />
+  </InputContextConstraints>
+  <InputActionDefaultGestures>
+    <Row ActionId="drt-toggle-diplo-ribbon-panel" Index="0" GestureType="KBMouse" GestureData="KEY_CONTROL+KEY_R" />
+  </InputActionDefaultGestures>
+</Database>
