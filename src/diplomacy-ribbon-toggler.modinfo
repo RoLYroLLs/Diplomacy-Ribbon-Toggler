@@ -20,15 +20,42 @@
     </Criteria>
   </ActionCriteria>
   <ActionGroups>
-    <ActionGroup id="game-diplomacy-ribbon-toggler" scope="game" criteria="always">
+    <ActionGroup id="shell-diplomacy-ribbon-toggler" scope="shell" criteria="always">
       <Properties>
         <LoadOrder>1000</LoadOrder>
       </Properties>
       <Actions>
         <UIScripts>
-          <Item>helpers/drt-globals.js</Item>
-          <Item>ui/options/mod-options.js</Item>
+          <Item>ui/options/editors/drt-editor-keyboard-mapping-decorator.js</Item>
         </UIScripts>
+        <UpdateDatabase>
+          <Item>config/input.xml</Item>
+        </UpdateDatabase>
+        <UpdateText>
+          <Item>text/en_US/InGameText.xml</Item>
+        </UpdateText>
+      </Actions>
+    </ActionGroup>
+    <ActionGroup id="game-diplomacy-ribbon-toggler" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <ImportFiles>
+          <Item>ui/diplo-ribbon/drt-panel-diplo-ribbon-toggler.css</Item>
+        </ImportFiles>
+        <UIScripts>
+          <Item>helpers/drt-globals.js</Item>
+          <Item>helpers/drt-utils.js</Item>
+          <Item>ui/options/drt-options.js</Item>
+          <Item>ui/options/mod-options.js</Item>
+          <Item>input/drt-hotkey-manager.js</Item>
+          <Item>ui/diplo-ribbon/drt-panel-diplo-ribbon-toggler.js</Item>
+          <Item>ui/options/editors/drt-editor-keyboard-mapping-decorator.js</Item>
+        </UIScripts>
+        <UpdateText>
+          <Item>text/en_US/InGameText.xml</Item>
+        </UpdateText>
       </Actions>
     </ActionGroup>
   </ActionGroups>
