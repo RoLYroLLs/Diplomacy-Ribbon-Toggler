@@ -19,6 +19,18 @@
       <AlwaysMet />
     </Criteria>
   </ActionCriteria>
+  <ActionGroups>
+    <ActionGroup id="game-diplomacy-ribbon-toggler" scope="game" criteria="always">
+      <Properties>
+        <LoadOrder>1000</LoadOrder>
+      </Properties>
+      <Actions>
+        <UIScripts>
+          <Item>helpers/drt-globals.js</Item>
+        </UIScripts>
+      </Actions>
+    </ActionGroup>
+  </ActionGroups>
   <LocalizedText>
     <File>text/en_US/ModInfoText.xml</File>
   </LocalizedText>
