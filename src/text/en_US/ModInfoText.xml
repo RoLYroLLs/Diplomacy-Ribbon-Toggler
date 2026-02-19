@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <EnglishText>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_NAME">
+      <Text>Diplomacy Ribbon Toggler</Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_DESCRIPTION">
+      <Text>Ever wanted to toggle the diplomacy ribbon? Now you can! This mod allows you to show or hide the diplomacy ribbon at will, giving you a cleaner interface when you don't need it.
+        [N]
+        --
+        [N]
+        [B]Features[/B]
+        [B]Diplomacy Ribbon:[/B] Show/Hide the ribbon at will.
+        [N]
+        --
+        [N]
+        [B]Hotkeys[/B]
+        [B]Toggle:[/B] CTRL-R (default, can be customized)
+        [N]
+        --
+        [N]
+        [B]SAVED GAMES[/B]
+        [N]
+        This mod does not affect saved games.
+        [N]
+        --
+        [N]
+        [B]CREDITS[/B]
+        [N]
+        [LI] [B]• ANGRYSnorlax[/B] - idea to show/hide the diplomacy ribbon
+      </Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_AUTHORS">
+      <Text>RoLYroLLs</Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_THANKS">
+      <Text></Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_COMPATIBILITY">
+      <Text>This should be compatible with all other mods.</Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_URL">
+      <Text>https://forums.civfanatics.com/resources/diplomacy-ribbon-toggler.32624/</Text>
+    </Row>
+    <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_VERSION">
+      <Text>0.0.1</Text>
+    </Row>
+  </EnglishText>
+</Database>
