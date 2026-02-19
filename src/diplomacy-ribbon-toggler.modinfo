@@ -27,6 +27,7 @@
       <Actions>
         <UIScripts>
           <Item>helpers/drt-globals.js</Item>
+          <Item>ui/options/mod-options.js</Item>
         </UIScripts>
       </Actions>
     </ActionGroup>
