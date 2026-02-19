@@ -43,7 +43,7 @@
       <Text>https://forums.civfanatics.com/resources/diplomacy-ribbon-toggler.32624/</Text>
     </Row>
     <Row Tag="LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_VERSION">
-      <Text>0.0.1</Text>
+      <Text>1.0.0-alpha.1</Text>
     </Row>
   </EnglishText>
 </Database>
