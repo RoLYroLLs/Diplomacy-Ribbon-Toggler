@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="diplomacy-ribbon-toggler" version="0.0.1" xmlns="ModInfo">
+<Mod id="diplomacy-ribbon-toggler" version="1.0.0-alpha.1" xmlns="ModInfo">
   <Properties>
     <Name>LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_NAME</Name>
     <Description>LOC_MOD_DIPLOMACY_RIBBON_TOGGLER_DESCRIPTION</Description>
@@ -9,7 +9,7 @@
     <SpecialThanks></SpecialThanks>
     <Compatibility>This should be compatible with all other mods.</Compatibility>
     <URL>https://github.com/RoLYroLLs/Diplomacy-Ribbon-Toggler</URL>
-    <Version>0.0.1</Version>
+    <Version>1.0.0-alpha.1</Version>
   </Properties>
   <Dependencies>
     <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
