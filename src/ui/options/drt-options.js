@@ -1,4 +1,5 @@
-import '/core/ui/options/screen-options.js';  // make sure this loads first
+import '/core/ui/options/options.js';
+import { CategoryType, Options, OptionType } from '/core/ui/options/model-options.js';
 import DrtGlobals from '../../helpers/drt-globals.js';
 // set up mod options tab
 import ModOptions from './mod-options.js';
