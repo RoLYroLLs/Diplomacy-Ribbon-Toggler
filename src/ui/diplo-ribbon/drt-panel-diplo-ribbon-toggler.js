@@ -1,4 +1,4 @@
-import { A as Audio } from '/core/ui/audio-base/audio-support.chunk.js';
+import { Audio } from '/core/ui/audio-base/audio-support.js';
 import DrtOptions from '../options/drt-options.js';
 
 export class DRT_PanelDiploRibbonToggler {
